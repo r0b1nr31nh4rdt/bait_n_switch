@@ -1,0 +1,36 @@
+# ─── MacOS ───
+.DS_Store
+
+# ─── Environments ───
+.env
+.env.*
+.venv
+env/
+venv/
+
+# ─── vscode ───
+.vscode/
+
+# ─── Secrets ───
+*.pem
+*.key
+
+# ─── Notizen ───
+notes/*
+notizen/*
+hints & guide/*
+classmates/*
+troubleshooting/*
+
+# Lokale Arbeitsdateien mit echten IPs/Daten – nie committen
+*.local.md
+local.*.md
+
+# ─── Gitleaks ───
+.gitleaks.toml
+
+# ─── Terraform ───
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
